@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+#index {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    background-color:  #cce698;
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.s1, .s2 {
+    background-color: burlywood;
+    
+}
+
+.gallery {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.gallery-item {
+    margin: 20px;
+}
