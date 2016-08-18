@@ -5,22 +5,20 @@ body {
 }
 
 #index {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
-    background-color:  #cce698;
-    position: fixed;
-    z-index: -2;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    font-family: 'Open Sans','Georgia', serif;
+    background-color: #b9e184;
+    height: 100%;
+    
+
 }
 
-.s1, .s2 {
-    background-color: burlywood;
-    
+.s1 {
+    position: fixed;
+    z-index: -1;
+    margin-left: 0px;
+    background-color: #A18B7D;
+    height: 100vh;
+    width: 100px;
 }
 
 .gallery {
@@ -34,4 +32,10 @@ body {
 
 .gallery-item {
     margin: 20px;
+}
+
+.contact p a {
+    color: black;
+    text-decoration: none;
+    
 }
