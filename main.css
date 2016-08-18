@@ -80,31 +80,9 @@ ul {
 .header {
     height: 450px;
     width: 100%;
-    background-image: url("./Images/header3.jpg");
+    background-image: url("./Images/header5.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
 }
 
-.header p {
-    position: relative;
-    z-index: 1000;
-    color: white;
-    font-size: 80px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 15%;
-    margin-top: 0;
-}
-
-.box {
-    position: relative;
-    height: 100px;
-    width: 900px;
-    background-color: #4d4d4d;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: -14%;
-    margin-left: 15%;
-    
-}
