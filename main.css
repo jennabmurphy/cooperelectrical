@@ -80,9 +80,19 @@ ul {
 .header {
     height: 450px;
     width: 100%;
-    background-image: url("./Images/header5.jpg");
+    background-image: url("./Images/header6.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: white; 
+}
+
+.footer p a:hover {
+    color: black;
+    text-decoration: none; 
 }
 
